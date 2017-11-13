@@ -1,1 +1,12 @@
-Put your Project 5 brief explanation, as directed, here.
+I am accesssing the Tumblr search API and gathering the last 20 posts on the blog starwarsmemes.tumblr.com.  
+
+For each post, I'll be pulling the post_url, the type, the notes (Tumblr's catch-all term for likes and reblogs), and the note_count.
+
+I'll write two CSV files:
+- The first one will rank the "popularity" of the posts.  It will have five columns: POST URL, POST TYPE, NOTES, LIKES, and REBLOGS.  The rows will be sorted in descending order of their value for NOTES.
+- The second one will be a count of how many posts of each type are in the search results.  It will have two columns: POST TYPE and NUMBER OF POSTS.  The rows will be sorted in descending order of their value for NUMBER OF POSTS.
+
+URL for the API: https://www.tumblr.com/docs/en/api/v2
+
+
+

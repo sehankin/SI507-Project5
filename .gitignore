@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+config.py
+*.py[oc]
+secret_data.py
+venv_507project5
+creds.json
